@@ -1,0 +1,110 @@
+# Output
+output
+
+# Editor
+.vscode
+.idea
+
+# Distribution / packaging
+.eggs/
+.installed.cfg
+.Python
+*.egg
+*.egg-info/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64
+MANIFEST
+parts/
+python-wheels/
+sdist/
+var/
+wheels/
+
+# Unit tests / coverage reports
+.cache
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+.tox/
+*.cover
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# Environments
+.env
+.venv
+env.bak/
+env/
+ENV/
+venv.bak/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+local_settings.py
+
+# Flask
+.webassets-cache
+instance/
+
+# pip
+pip-delete-this-directory.txt
+pip-log.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Spyder IDE
+.spyderproject
+.spyproject
+
+# Translations
+*.mo
+*.pot
+
+# C extensions
+*.so
+
+# Celery
+celerybeat-schedule
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MkDocs
+/site
+
+# mypy
+.mypy_cache/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# Rope
+.ropeproject
+
+# SageMath
+*.sage.py
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
