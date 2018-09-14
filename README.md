@@ -35,10 +35,10 @@ By default, a `.csv` file will be generated in the the `output` folder of the cu
 
 ## CLI options
 
-- 
-- `--currency` - 3 letter currency code (defaults to `USD`)
-- `--start` - Start date (defaults to start of the current month)
-- `--end` - End date (defaults to now)
+- `-k` or `--api-key` - Your Stripe API key (must have 'Balances' permissions)
+- `-c` or `--currency` - 3 letter currency code (defaults to `USD`)
+- `-s ` or `--start` - Start date (defaults to start of the current month)
+- `-e` or `--end` - End date (defaults to now)
 - `-o` or `--output` - Override default output file name
 
 Dates will be parsed using [dateparser](https://pypi.org/project/dateparser/)
